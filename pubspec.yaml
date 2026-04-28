@@ -1,0 +1,59 @@
+name: wireless_debug_assistant
+description: A professional Bluetooth BLE + Classic SPP + Wi-Fi network debugging tool for mobile and iPad.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Bluetooth BLE
+  flutter_blue_plus: ^1.35.0
+
+  # Classic Bluetooth SPP (Android only)
+  flutter_bluetooth_serial: ^0.4.0
+
+  # Network
+  connectivity_plus: ^6.1.0
+  network_info_plus: ^6.1.0
+
+  # Permissions
+  permission_handler: ^11.3.0
+
+  # Local storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # UI components
+  fl_chart: ^0.69.0
+  flutter_staggered_grid_view: ^0.7.0
+  flutter_adaptive_scaffold: ^0.3.0
+
+  # Data & utilities
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
+  intl: ^0.19.0
+  path_provider: ^2.1.5
+  share_plus: ^10.0.0
+  file_saver: ^0.2.14
+  device_info_plus: ^11.0.0
+  package_info_plus: ^8.1.0
+
+  # State management & routing
+  flutter_riverpod: ^2.5.0
+  go_router: ^14.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.0
+  freezed: ^2.4.0
+  json_serializable: ^6.8.0
+  hive_generator: ^2.0.0
+
+flutter:
+  uses-material-design: true
