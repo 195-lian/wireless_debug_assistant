@@ -100,6 +100,17 @@ flutter install
 | **存储** | [hive](https://pub.dev/packages/hive) + [hive_flutter](https://pub.dev/packages/hive_flutter) |
 | **分享** | [share_plus](https://pub.dev/packages/share_plus) |
 
+## 📚 开发文档
+
+| 文档 | 内容 |
+|------|------|
+| [ARCHITECTURE.md](docs/ARCHITECTURE.md) | Clean Architecture 分层设计、数据流向、Provider 设计 |
+| [BLUETOOTH.md](docs/BLUETOOTH.md) | BLE / SPP 接口说明、连接状态机、GATT 通信示例 |
+| [WIFI.md](docs/WIFI.md) | TCP/UDP 使用方式、Socket 通信示例、端口扫描 |
+| [THEME.md](docs/THEME.md) | GitHub Dark 配色方案、组件主题配置 |
+| [BUILD.md](docs/BUILD.md) | 环境要求、构建命令、签名配置、问题排查 |
+| [FAQ.md](docs/FAQ.md) | 编译报错、运行时问题、开发常见问题 |
+
 ## 📂 目录结构
 
 ```
@@ -107,6 +118,7 @@ wireless_debug_assistant/
 ├── android/                 # Android 原生工程
 │   └── app/
 │       └── src/main/AndroidManifest.xml   # 权限配置
+├── docs/                    # 开发文档
 ├── lib/                     # Dart 源码
 ├── test/                    # 单元测试
 ├── pubspec.yaml             # 依赖配置
